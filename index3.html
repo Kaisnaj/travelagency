@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+    
+</head>
+<body>
+<div class="divmain">   
+    <div class="div">
+        <form id="personForm" onsubmit="signup()"> <br><br>
+          <label for="fname">First Name</label><br>
+          <input type="text" id="fname" name="firstname" placeholder="Your name.."><br><br>
+      
+          <label for="lname">Last Name</label><br>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br><br>
+
+          <label for="mail">e-mail</label><br>
+          <input type="text" id="mail" name="email" placeholder="e-mail.."><br><br>
+
+          <label for="phone ">Phone</label><br>
+          <input type="text" id="phone" name="phone" placeholder="06254785.."><br><br>          
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">USA</option>
+            <option value="canada">FRANCE</option>
+            <option value="usa">TUNISIE</option>
+          </select><br>
+        
+          <input onclick="signup()",  type="submit"  value="Submit"  id="sub"><br>
+          <input onclick="home()",  type="button"  value="Back"  id="sub">
+        </form>
+      </div>   
+</div>
+  
+
+
+<script src="loca.js"></script> 
+<script src="main.js"></script>
+</body>
+</html>
