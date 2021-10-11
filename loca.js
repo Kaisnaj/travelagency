@@ -29,3 +29,6 @@ function signup(){
     
 
 }
+function home () {
+    location.replace("index.html")
+  }
